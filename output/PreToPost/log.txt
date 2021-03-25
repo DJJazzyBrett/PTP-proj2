@@ -1,0 +1,1445 @@
+
+---- Begin processing of prefixexpression #1 ----
+
+
+main() : prefixOpChar = (char) readVal = -
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(-)
+
+main() : prefixExp.toString() = -
+
+main() : prefixOpChar = (char) readVal = +
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(+)
+
+main() : prefixExp.toString() = -+
+
+main() : prefixOpChar = (char) readVal = +
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(+)
+
+main() : prefixExp.toString() = -++
+
+main() : prefixOpChar = (char) readVal = -
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(-)
+
+main() : prefixExp.toString() = -++-
+
+main() : prefixOpChar = (char) readVal = -
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(-)
+
+main() : prefixExp.toString() = -++--
+
+main() : prefixOpChar = (char) readVal = +
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(+)
+
+main() : prefixExp.toString() = -++--+
+
+main() : prefixOpChar = (char) readVal = +
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(+)
+
+main() : prefixExp.toString() = -++--++
+
+main() : prefixOpChar = (char) readVal = *
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(*)
+
+main() : prefixExp.toString() = -++--++*
+
+main() : prefixOpChar = (char) readVal = $
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp($)
+
+main() : prefixExp.toString() = -++--++*$
+
+main() : prefixOpChar = (char) readVal = $
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp($)
+
+main() : prefixExp.toString() = -++--++*$$
+
+main() : prefixOpChar = (char) readVal = A
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(A)
+
+main() : prefixExp.toString() = -++--++*$$A
+
+main() : prefixOpChar = (char) readVal = +
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(+)
+
+main() : prefixExp.toString() = -++--++*$$A+
+
+main() : prefixOpChar = (char) readVal = B
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(B)
+
+main() : prefixExp.toString() = -++--++*$$A+B
+
+main() : prefixOpChar = (char) readVal = C
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(C)
+
+main() : prefixExp.toString() = -++--++*$$A+BC
+
+main() : prefixOpChar = (char) readVal = /
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(/)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/
+
+main() : prefixOpChar = (char) readVal = D
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(D)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/D
+
+main() : prefixOpChar = (char) readVal = E
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(E)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DE
+
+main() : prefixOpChar = (char) readVal = F
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(F)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF
+
+main() : prefixOpChar = (char) readVal = *
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(*)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*
+
+main() : prefixOpChar = (char) readVal = G
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(G)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*G
+
+main() : prefixOpChar = (char) readVal = H
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(H)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH
+
+main() : prefixOpChar = (char) readVal = -
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(-)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-
+
+main() : prefixOpChar = (char) readVal = $
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp($)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$
+
+main() : prefixOpChar = (char) readVal = J
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(J)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$J
+
+main() : prefixOpChar = (char) readVal = K
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(K)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK
+
+main() : prefixOpChar = (char) readVal = *
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(*)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*
+
+main() : prefixOpChar = (char) readVal = L
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(L)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L
+
+main() : prefixOpChar = (char) readVal = +
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(+)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+
+
+main() : prefixOpChar = (char) readVal = M
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(M)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+M
+
+main() : prefixOpChar = (char) readVal = N
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(N)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MN
+
+main() : prefixOpChar = (char) readVal = O
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(O)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNO
+
+main() : prefixOpChar = (char) readVal = P
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(P)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP
+
+main() : prefixOpChar = (char) readVal = $
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp($)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$
+
+main() : prefixOpChar = (char) readVal = Q
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(Q)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q
+
+main() : prefixOpChar = (char) readVal = $
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp($)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$
+
+main() : prefixOpChar = (char) readVal = *
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(*)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*
+
+main() : prefixOpChar = (char) readVal = $
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp($)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$
+
+main() : prefixOpChar = (char) readVal = R
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(R)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R
+
+main() : prefixOpChar = (char) readVal = $
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp($)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$
+
+main() : prefixOpChar = (char) readVal = S
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(S)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S
+
+main() : prefixOpChar = (char) readVal = /
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(/)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S/
+
+main() : prefixOpChar = (char) readVal = /
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(/)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//
+
+main() : prefixOpChar = (char) readVal = T
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(T)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//T
+
+main() : prefixOpChar = (char) readVal = U
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(U)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TU
+
+main() : prefixOpChar = (char) readVal = V
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(V)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUV
+
+main() : prefixOpChar = (char) readVal = W
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(W)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVW
+
+main() : prefixOpChar = (char) readVal = X
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(X)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWX
+
+main() : prefixOpChar = (char) readVal = Y
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(Y)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXY
+
+main() : prefixOpChar = (char) readVal = Z
+
+main() : prefixExp.appendOp(prefixOpChar) = prefixExp.appendOp(Z)
+
+main() : prefixExp.toString() = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ
+
+main() : prefixOpChar = (char) readVal = 
+
+
+
+--- ! Welcome to isExp() ! ---
+
+isExp()  : input parameter endIndx = 48
+
+isExp()  : variable pSize = 49
+
+isExp()  : pLast = endExp(inputExp, 0, pSize - 1) = endExp(-++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ, 0, 48)
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 0 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = -
+
+endExp() : isOp(inputChar) == operator  : inputChar = - : bgnIndx = 0 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = ++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 1 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = +
+
+endExp() : isOp(inputChar) == operator  : inputChar = + : bgnIndx = 1 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = +--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 2 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = +
+
+endExp() : isOp(inputChar) == operator  : inputChar = + : bgnIndx = 2 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = --++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 3 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = -
+
+endExp() : isOp(inputChar) == operator  : inputChar = - : bgnIndx = 3 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = -++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 4 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = -
+
+endExp() : isOp(inputChar) == operator  : inputChar = - : bgnIndx = 4 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = ++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 5 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = +
+
+endExp() : isOp(inputChar) == operator  : inputChar = + : bgnIndx = 5 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = +*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 6 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = +
+
+endExp() : isOp(inputChar) == operator  : inputChar = + : bgnIndx = 6 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = *$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 7 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = *
+
+endExp() : isOp(inputChar) == operator  : inputChar = * : bgnIndx = 7 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = $$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 8 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = $
+
+endExp() : isOp(inputChar) == operator  : inputChar = $ : bgnIndx = 8 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = $A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 9 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = $
+
+endExp() : isOp(inputChar) == operator  : inputChar = $ : bgnIndx = 9 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 10 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = A
+
+endExp() : isOp(inputChar) == operand  : inputChar = A : bgnIndx = 10 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = $ : bgnIndx = 9 midIndx = 10 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = +BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 11 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = +
+
+endExp() : isOp(inputChar) == operator  : inputChar = + : bgnIndx = 11 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 12 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = B
+
+endExp() : isOp(inputChar) == operand  : inputChar = B : bgnIndx = 12 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = + : bgnIndx = 11 midIndx = 12 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = C/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 13 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = C
+
+endExp() : isOp(inputChar) == operand  : inputChar = C : bgnIndx = 13 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = $ : bgnIndx = 8 midIndx = 13 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = /DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 14 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = /
+
+endExp() : isOp(inputChar) == operator  : inputChar = / : bgnIndx = 14 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 15 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = D
+
+endExp() : isOp(inputChar) == operand  : inputChar = D : bgnIndx = 15 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = / : bgnIndx = 14 midIndx = 15 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = EF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 16 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = E
+
+endExp() : isOp(inputChar) == operand  : inputChar = E : bgnIndx = 16 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = * : bgnIndx = 7 midIndx = 16 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = F*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 17 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = F
+
+endExp() : isOp(inputChar) == operand  : inputChar = F : bgnIndx = 17 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = + : bgnIndx = 6 midIndx = 17 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = *GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 18 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = *
+
+endExp() : isOp(inputChar) == operator  : inputChar = * : bgnIndx = 18 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 19 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = G
+
+endExp() : isOp(inputChar) == operand  : inputChar = G : bgnIndx = 19 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = * : bgnIndx = 18 midIndx = 19 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = H-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 20 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = H
+
+endExp() : isOp(inputChar) == operand  : inputChar = H : bgnIndx = 20 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = + : bgnIndx = 5 midIndx = 20 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = -$JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 21 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = -
+
+endExp() : isOp(inputChar) == operator  : inputChar = - : bgnIndx = 21 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = $JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 22 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = $
+
+endExp() : isOp(inputChar) == operator  : inputChar = $ : bgnIndx = 22 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = JK*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 23 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = J
+
+endExp() : isOp(inputChar) == operand  : inputChar = J : bgnIndx = 23 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = $ : bgnIndx = 22 midIndx = 23 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = K*L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 24 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = K
+
+endExp() : isOp(inputChar) == operand  : inputChar = K : bgnIndx = 24 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = - : bgnIndx = 21 midIndx = 24 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = *L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 25 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = *
+
+endExp() : isOp(inputChar) == operator  : inputChar = * : bgnIndx = 25 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = L+MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 26 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = L
+
+endExp() : isOp(inputChar) == operand  : inputChar = L : bgnIndx = 26 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = * : bgnIndx = 25 midIndx = 26 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = +MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 27 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = +
+
+endExp() : isOp(inputChar) == operator  : inputChar = + : bgnIndx = 27 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = MNOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 28 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = M
+
+endExp() : isOp(inputChar) == operand  : inputChar = M : bgnIndx = 28 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = + : bgnIndx = 27 midIndx = 28 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = NOP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 29 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = N
+
+endExp() : isOp(inputChar) == operand  : inputChar = N : bgnIndx = 29 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = - : bgnIndx = 4 midIndx = 29 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = OP$Q$*$R$S//TUVWXYZ : input param bgnIndx = 30 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = O
+
+endExp() : isOp(inputChar) == operand  : inputChar = O : bgnIndx = 30 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = - : bgnIndx = 3 midIndx = 30 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = P$Q$*$R$S//TUVWXYZ : input param bgnIndx = 31 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = P
+
+endExp() : isOp(inputChar) == operand  : inputChar = P : bgnIndx = 31 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = + : bgnIndx = 2 midIndx = 31 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = $Q$*$R$S//TUVWXYZ : input param bgnIndx = 32 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = $
+
+endExp() : isOp(inputChar) == operator  : inputChar = $ : bgnIndx = 32 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = Q$*$R$S//TUVWXYZ : input param bgnIndx = 33 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = Q
+
+endExp() : isOp(inputChar) == operand  : inputChar = Q : bgnIndx = 33 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = $ : bgnIndx = 32 midIndx = 33 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = $*$R$S//TUVWXYZ : input param bgnIndx = 34 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = $
+
+endExp() : isOp(inputChar) == operator  : inputChar = $ : bgnIndx = 34 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = *$R$S//TUVWXYZ : input param bgnIndx = 35 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = *
+
+endExp() : isOp(inputChar) == operator  : inputChar = * : bgnIndx = 35 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = $R$S//TUVWXYZ : input param bgnIndx = 36 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = $
+
+endExp() : isOp(inputChar) == operator  : inputChar = $ : bgnIndx = 36 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = R$S//TUVWXYZ : input param bgnIndx = 37 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = R
+
+endExp() : isOp(inputChar) == operand  : inputChar = R : bgnIndx = 37 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = $ : bgnIndx = 36 midIndx = 37 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = $S//TUVWXYZ : input param bgnIndx = 38 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = $
+
+endExp() : isOp(inputChar) == operator  : inputChar = $ : bgnIndx = 38 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = S//TUVWXYZ : input param bgnIndx = 39 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = S
+
+endExp() : isOp(inputChar) == operand  : inputChar = S : bgnIndx = 39 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = $ : bgnIndx = 38 midIndx = 39 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = //TUVWXYZ : input param bgnIndx = 40 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = /
+
+endExp() : isOp(inputChar) == operator  : inputChar = / : bgnIndx = 40 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = /TUVWXYZ : input param bgnIndx = 41 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = /
+
+endExp() : isOp(inputChar) == operator  : inputChar = / : bgnIndx = 41 endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = TUVWXYZ : input param bgnIndx = 42 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = T
+
+endExp() : isOp(inputChar) == operand  : inputChar = T : bgnIndx = 42 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = / : bgnIndx = 41 midIndx = 42 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = UVWXYZ : input param bgnIndx = 43 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = U
+
+endExp() : isOp(inputChar) == operand  : inputChar = U : bgnIndx = 43 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = / : bgnIndx = 40 midIndx = 43 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = VWXYZ : input param bgnIndx = 44 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = V
+
+endExp() : isOp(inputChar) == operand  : inputChar = V : bgnIndx = 44 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = * : bgnIndx = 35 midIndx = 44 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = WXYZ : input param bgnIndx = 45 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = W
+
+endExp() : isOp(inputChar) == operand  : inputChar = W : bgnIndx = 45 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = $ : bgnIndx = 34 midIndx = 45 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = XYZ : input param bgnIndx = 46 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = X
+
+endExp() : isOp(inputChar) == operand  : inputChar = X : bgnIndx = 46 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = + : bgnIndx = 1 midIndx = 46 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = YZ : input param bgnIndx = 47 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = Y
+
+endExp() : isOp(inputChar) == operand  : inputChar = Y : bgnIndx = 47 endIndx = 48
+
+
+--- ! Welcome back to endExp() ! ---
+
+endExp() : isOp(inputChar) == operand  : inputChar = - : bgnIndx = 0 midIndx = 47 : endIndx = 48
+
+
+--- ! Welcome to endExp() ! ---
+
+endExp() : input param inputExp = Z : input param bgnIndx = 48 : input param endIndx = 48
+
+endExp() : inputChar = inputExp.removeOp() = Z
+
+endExp() : isOp(inputChar) == operand  : inputChar = Z : bgnIndx = 48 endIndx = 48
+
+
+--- ! Welcome back to isExp() ! ---
+
+isExp()  : variable pSize = 49
+
+isExp()  : variable pLast = 48
+
+
+--- ! Welcome back to main() ! ---
+
+main() : prefixExp == -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ : prefixExpCheck == isExp
+
+---- End processing of prefix expression #1 ----
+
+
+
+--- ! Welcome back to main() ! ---
+
+main() : convert(prefixExp) = convert(-++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+////////////// COMMENCE CONVERSION PROCESS //////////////
+
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == -
+
+convert() : postfix1 = convert(inputExp) == convert(++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == +
+
+convert() : postfix1 = convert(inputExp) == convert(+--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == +
+
+convert() : postfix1 = convert(inputExp) == convert(--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == -
+
+convert() : postfix1 = convert(inputExp) == convert(-++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == -
+
+convert() : postfix1 = convert(inputExp) == convert(++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == +
+
+convert() : postfix1 = convert(inputExp) == convert(+*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == +
+
+convert() : postfix1 = convert(inputExp) == convert(*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == *
+
+convert() : postfix1 = convert(inputExp) == convert($$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == $
+
+convert() : postfix1 = convert(inputExp) == convert($A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == $
+
+convert() : postfix1 = convert(inputExp) == convert(A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == A
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN A
+
+convert() : postfix2 = convert(inputExp) == convert(+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == +
+
+convert() : postfix1 = convert(inputExp) == convert(BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == B
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN B
+
+convert() : postfix2 = convert(inputExp) == convert(C/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == C
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN C
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN BC+
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN ABC+$
+
+convert() : postfix2 = convert(inputExp) == convert(/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == /
+
+convert() : postfix1 = convert(inputExp) == convert(DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == D
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN D
+
+convert() : postfix2 = convert(inputExp) == convert(EF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == E
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN E
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN DE/
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN ABC+$DE/$
+
+convert() : postfix2 = convert(inputExp) == convert(F*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == F
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN F
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN ABC+$DE/$F*
+
+convert() : postfix2 = convert(inputExp) == convert(*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == *
+
+convert() : postfix1 = convert(inputExp) == convert(GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == G
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN G
+
+convert() : postfix2 = convert(inputExp) == convert(H-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == H
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN H
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN GH*
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN ABC+$DE/$F*GH*+
+
+convert() : postfix2 = convert(inputExp) == convert(-$JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == -
+
+convert() : postfix1 = convert(inputExp) == convert($JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == $
+
+convert() : postfix1 = convert(inputExp) == convert(JK*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == J
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN J
+
+convert() : postfix2 = convert(inputExp) == convert(K*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == K
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN K
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN JK$
+
+convert() : postfix2 = convert(inputExp) == convert(*L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == *
+
+convert() : postfix1 = convert(inputExp) == convert(L+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == L
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN L
+
+convert() : postfix2 = convert(inputExp) == convert(+MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == +
+
+convert() : postfix1 = convert(inputExp) == convert(MNOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == M
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN M
+
+convert() : postfix2 = convert(inputExp) == convert(NOP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == N
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN N
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN MN+
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN LMN+*
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN JK$LMN+*-
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN ABC+$DE/$F*GH*+JK$LMN+*-+
+
+convert() : postfix2 = convert(inputExp) == convert(OP$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == O
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN O
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN ABC+$DE/$F*GH*+JK$LMN+*-+O-
+
+convert() : postfix2 = convert(inputExp) == convert(P$Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == P
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN P
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN ABC+$DE/$F*GH*+JK$LMN+*-+O-P-
+
+convert() : postfix2 = convert(inputExp) == convert($Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == $
+
+convert() : postfix1 = convert(inputExp) == convert(Q$*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == Q
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN Q
+
+convert() : postfix2 = convert(inputExp) == convert($*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == $
+
+convert() : postfix1 = convert(inputExp) == convert(*$R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == *
+
+convert() : postfix1 = convert(inputExp) == convert($R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == $
+
+convert() : postfix1 = convert(inputExp) == convert(R$S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == R
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN R
+
+convert() : postfix2 = convert(inputExp) == convert($S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == $
+
+convert() : postfix1 = convert(inputExp) == convert(S//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == S
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN S
+
+convert() : postfix2 = convert(inputExp) == convert(//TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == /
+
+convert() : postfix1 = convert(inputExp) == convert(/TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operator : inputOpChar == /
+
+convert() : postfix1 = convert(inputExp) == convert(TUVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == T
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN T
+
+convert() : postfix2 = convert(inputExp) == convert(UVWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == U
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN U
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN TU/
+
+convert() : postfix2 = convert(inputExp) == convert(VWXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == V
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN V
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN TU/V/
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN STU/V/$
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN RSTU/V/$$
+
+convert() : postfix2 = convert(inputExp) == convert(WXYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == W
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN W
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN RSTU/V/$$W*
+
+convert() : postfix2 = convert(inputExp) == convert(XYZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == X
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN X
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN RSTU/V/$$W*X$
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN QRSTU/V/$$W*X$$
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN ABC+$DE/$F*GH*+JK$LMN+*-+O-P-QRSTU/V/$$W*X$$+
+
+convert() : postfix2 = convert(inputExp) == convert(YZ)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == Y
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN Y
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN ABC+$DE/$F*GH*+JK$LMN+*-+O-P-QRSTU/V/$$W*X$$+Y+
+
+convert() : postfix2 = convert(inputExp) == convert(Z)
+
+
+--- ! Welcome to convert() ! ---
+
+convert() : isOp(inputOpChar) == operand : inputOpChar == Z
+
+convert() : RETURN inputOpChar
+
+convert() : RETURN Z
+
+convert() : RETURN postfix1 + postfix2 + inputOpChar
+
+convert() : RETURN ABC+$DE/$F*GH*+JK$LMN+*-+O-P-QRSTU/V/$$W*X$$+Y+Z-
+
+Orig prefix expression: -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ
+
+Fnl postfix expression: ABC+$DE/$F*GH*+JK$LMN+*-+O-P-QRSTU/V/$$W*X$$+Y+Z-
+
+////////////// CONCLUDE CONVERSION PROCESS //////////////
+
+
+ --- END OF PROGRAM
+ --------------- runIn = KB: 4810.0
+ -------------- runOut = KB: 10954.0
+ ------------ runAvail = 64
+ --- END OF PROGRAM
+

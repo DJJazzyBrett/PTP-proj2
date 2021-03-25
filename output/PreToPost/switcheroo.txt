@@ -1,0 +1,9 @@
+Prefix expressions read from switcheroo.txt
+
+Expression #1: 
+Orig prefix expression: -*A$B+C-DE*EF
+Fnl postfix expression: ABCDE-+$*EF*-
+
+Expression #2: 
+Orig prefix expression: -*AB$+C-DE*EF
+Fnl postfix expression: AB*CDE-+EF*$-

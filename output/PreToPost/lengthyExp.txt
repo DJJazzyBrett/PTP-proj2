@@ -1,0 +1,5 @@
+Prefix expressions read from lengthyExp.txt
+
+Expression #1: 
+Orig prefix expression: -++--++*$$A+BC/DEF*GH-$JK*L+MNOP$Q$*$R$S//TUVWXYZ
+Fnl postfix expression: ABC+$DE/$F*GH*+JK$LMN+*-+O-P-QRSTU/V/$$W*X$$+Y+Z-

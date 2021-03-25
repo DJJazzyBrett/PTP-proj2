@@ -1,0 +1,48 @@
+.
+├── analysis
+│   ├── algorithm2e.sty
+│   ├── algorithmic.sty
+│   ├── algorithmicx.sty
+│   └── algorithm.sty
+├── dir-tree.txt
+├── info
+│   └── JavaCodeConventions.pdf
+├── input
+│   └── PreToPost
+│       ├── dblPlusGood.txt
+│       ├── holyExp.txt
+│       ├── lengthyExp.txt
+│       ├── makeUpUrMind.txt
+│       ├── required
+│       │   └── input.txt
+│       ├── rWeThereYet.txt
+│       ├── switcheroo.txt
+│       └── weTalkinBoutPractice.txt
+├── output
+│   └── PreToPost
+│       ├── dblPlusGood.txt
+│       ├── holyExp.txt
+│       ├── lengthyExp.txt
+│       ├── log.txt
+│       ├── makeUpUrMind.txt
+│       ├── required
+│       │   ├── output-option1.txt
+│       │   ├── output-option2.txt
+│       │   └── output-option3.txt
+│       ├── rWeThereYet.txt
+│       ├── switcheroo.txt
+│       └── weTalkinBoutPractice.txt
+├── README.txt
+└── src
+    ├── CustomException.class
+    ├── CustomException.java
+    ├── ExpADT.class
+    ├── ExpADT.java
+    ├── ExpLinkBased.class
+    ├── ExpLinkBased.java
+    ├── Node.class
+    ├── Node.java
+    ├── PreToPost.class
+    └── PreToPost.java
+
+9 directories, 36 files

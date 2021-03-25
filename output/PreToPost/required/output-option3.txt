@@ -1,0 +1,48 @@
+Prefix expressions read from /required/input.txt
+
+Expression #1: 
+Orig prefix expression: -+ABC
+Fnl postfix expression: AB+C-
+
+Expression #2: 
+Orig prefix expression: -A+BC
+Fnl postfix expression: ABC+-
+
+Expression #3: 
+Orig prefix expression: $+-ABC+D-EF
+Fnl postfix expression: AB-C+DEF-+$
+
+Expression #4: 
+Orig prefix expression: -*A$B+C-DE*EF
+Fnl postfix expression: ABCDE-+$*EF*-
+
+Expression #5: 
+Orig prefix expression: **A+BC+C-BA
+Fnl postfix expression: ABC+*CBA-+*
+
+Expression #6: 
+Orig prefix expression: /A+BC+C*BA
+Fnl postfix expression: <invalid>
+ERROR ---> too few operators in prefixexpression
+
+Expression #7: 
+Orig prefix expression: *-*-ABC+BA
+Fnl postfix expression: <invalid>
+ERROR ---> too few operands in prefixexpression
+
+Expression #8: 
+Orig prefix expression: /+/A-BC-BA
+Fnl postfix expression: <invalid>
+ERROR ---> too few operands in prefixexpression
+
+Expression #9: 
+Orig prefix expression: *$A+BC+C-BA
+Fnl postfix expression: ABC+$CBA-+*
+
+Expression #10: 
+Orig prefix expression: //A+BZ-C+BA
+Fnl postfix expression: ABZ+/CBA+-/
+
+Expression #11: 
+Orig prefix expression: *$A$BC+C-BA
+Fnl postfix expression: ABC$$CBA-+*

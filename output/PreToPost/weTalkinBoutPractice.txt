@@ -1,0 +1,5 @@
+Prefix expressions read from weTalkinBoutPractice.txt
+
+Expression #1: 
+Orig prefix expression: Z
+Fnl postfix expression: Z

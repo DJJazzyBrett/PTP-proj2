@@ -1,0 +1,22 @@
+Prefix expressions read from holyExp.txt
+
+Expression #1: 
+Orig prefix expression: /+ABD
+Fnl postfix expression: AB+D/
+
+Expression #2: 
+Orig prefix expression: /+AB+DE
+Fnl postfix expression: AB+DE+/
+
+Expression #3: 
+Orig prefix expression: /+-A/BCE+AB
+Fnl postfix expression: ABC/-E+AB+/
+
+Expression #4: 
+Orig prefix expression: <missing>
+Fnl postfix expression: <missing>
+
+Expression #5: 
+Orig prefix expression: -$B**AC
+Fnl postfix expression: <invalid>
+ERROR ---> too few operands in prefixexpression

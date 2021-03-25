@@ -1,0 +1,5 @@
+Prefix expressions read from rWeThereYet.txt
+
+Expression #1: 
+Orig prefix expression: $A$B$C$D$E$F$G$H$I$J$K$L$M$N$O$P$Q$R$S$T$U$V$W$X$YZ
+Fnl postfix expression: ABCDEFGHIJKLMNOPQRSTUVWXYZ$$$$$$$$$$$$$$$$$$$$$$$$$

@@ -1,0 +1,5 @@
+Prefix expressions read from dblPlusGood.txt
+
+Expression #1: 
+Orig prefix expression: +++ABCD
+Fnl postfix expression: AB+C+D+

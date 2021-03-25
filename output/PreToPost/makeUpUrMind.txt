@@ -1,0 +1,31 @@
+Prefix expressions read from makeUpUrMind.txt
+
+Expression #1: 
+
+Expression #1: 
+
+Expression #1: 
+
+Expression #1: 
+
+Expression #1: 
+
+Expression #1: 
+
+Expression #1: 
+
+Expression #1: 
+
+Expression #1: 
+
+Expression #1: 
+
+Expression #1: 
+
+Expression #1: 
+
+Expression #1: 
+
+Expression #1: 
+Orig prefix expression: <missing>
+Fnl postfix expression: <missing>
